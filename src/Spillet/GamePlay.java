@@ -9,46 +9,46 @@ import java.awt.event.KeyListener;
 
 public class GamePlay extends JPanel implements KeyListener, ActionListener {
 
-//
-//    private int [] snakeXlength = new int[750];
-//    private int [] snakeYlength = new int[750];
-//
-//    //for loops
-//    private boolean left = false;
-//    private boolean right = false;
-//    private boolean up = false;
-//    private boolean down = false;
-//
-//    //graphics for snake
-//    private ImageIcon headRight;
-//    private ImageIcon headLeft;
-//    private ImageIcon headDown;
-//    private ImageIcon headUp;
-//    private ImageIcon tail;
-//
-//    //Initialised snake length
-//    private int lengthOfSnake = 3;
-//
-//    //timer for game
-//    private Timer timer;
-//    private int delay = 100;
-//
-//    private int score = 0;
-//    private int moves = 0;
-//
-//    private ImageIcon titleImage;
-//
-//
-//
-//    public GamePlay(){
-//
-//        addKeyListener(this);
-//        setFocusable(true);
-//        setFocusTraversalKeysEnabled(false);
-//
-//
-//        timer = new Timer(delay, this);
-//        timer.start();
+    private int[] snakeXlength = new int[750];
+    private int[] snakeYlength = new int[750];
+
+    //for loops
+    private boolean left = false;
+    private boolean right = false;
+    private boolean up = false;
+    private boolean down = false;
+
+    //graphics for snake
+    private ImageIcon headRight;
+    private ImageIcon headLeft;
+    private ImageIcon headDown;
+    private ImageIcon headUp;
+    private ImageIcon tail;
+
+    //Initialised snake length
+    private int lengthOfSnake = 3;
+
+    //timer for game
+
+    private Timer timer;
+    private int delay = 100;
+
+    private int score = 0;
+    private int moves = 0;
+
+    private ImageIcon titleImage;
+
+
+
+    public GamePlay(){
+
+        addKeyListener(this);
+        setFocusable(true);
+        setFocusTraversalKeysEnabled(false);
+
+
+        timer = new Timer(delay, this);
+        timer.start();
 
 
 
